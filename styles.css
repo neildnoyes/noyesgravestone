@@ -216,7 +216,7 @@ footer {
     }
 
     .site-title {
-        display: none;
+        font-size: 0.75em;
     }
     
     .card i {
