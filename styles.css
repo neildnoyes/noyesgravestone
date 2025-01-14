@@ -251,7 +251,7 @@ footer {
     display: flex;
     justify-content: center; /* Center the cards horizontally */
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.5em;
 }
 
 .card {
@@ -260,8 +260,16 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 1em;
     flex: 1;
-    max-width: 250px;
+    max-width: 300px;
     text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 10px; 
 }
 
 .card h3 {
